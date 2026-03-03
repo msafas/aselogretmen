@@ -14,7 +14,6 @@ import { styled } from "@mui/material/styles";
 import SchoolIcon from "@mui/icons-material/School";
 import PsychologyIcon from "@mui/icons-material/Psychology";
 import FavoriteIcon from "@mui/icons-material/Favorite";
-import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import StarIcon from "@mui/icons-material/Star";
 import SupportAgentIcon from "@mui/icons-material/SupportAgent";
 import AutoStoriesIcon from "@mui/icons-material/AutoStories";
@@ -68,7 +67,7 @@ const StepCard = styled(Paper)(({ theme }) => ({
   },
 }));
 
-const TimelineDot = styled(Box)(({ theme }) => ({
+const TimelineDot = styled(Box)(() => ({
   width: 36,
   height: 36,
   borderRadius: "50%",
@@ -81,7 +80,7 @@ const TimelineDot = styled(Box)(({ theme }) => ({
   boxShadow: "0 4px 12px rgba(124, 58, 237, 0.3)",
 }));
 
-const TimelineConnector = styled(Box)(({ theme }) => ({
+const TimelineConnector = styled(Box)(() => ({
   width: 4,
   height: 32,
   background: "linear-gradient(180deg, #A78BFA 0%, #C4B5FD 100%)",

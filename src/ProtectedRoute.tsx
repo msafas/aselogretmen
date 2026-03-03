@@ -6,7 +6,7 @@ interface ProtectedRouteProps {
   allowedRoles: number[];
 }
 
-const ProtectedRoute: React.FC<ProtectedRouteProps> = ({ allowedRoles }) => {
+const ProtectedRoute: React.FC<ProtectedRouteProps> = () => {
   // API bağlantısı kapalı - tüm kullanıcılara izin ver
   return <Outlet />;
 
