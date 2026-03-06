@@ -44,10 +44,16 @@ const FormCard = styled(Paper)(({ theme }) => ({
 const specialtyAreas = [
     "Otizm Spektrum Bozukluğu",
     "Disleksi",
-    "Öğrenme Güçlüğü",
     "Davranış Bozukluğu",
     "Floortime Eğitimi",
     "Akıcı Okuma",
+    "Readkid Akıcı Okuma Programı",
+    "O-HAP Okula Hazırlık Programı",
+    "Eteçom Ebeveynin Etkileşim Temelli Çocuklukta Erken Müdahale Programı",
+    "Moxo ADHL (Dikkat Testi)",
+    "Cogent Erken Çocuklukta Bilişsel Müdahale Programı",
+    "Türkçe Prep Programı",
+    "DEHB",
     "Diğer",
 ];
 
@@ -147,10 +153,10 @@ export default function Contact() {
                 <Box sx={{ textAlign: "center", mb: 4 }}>
                     <CalendarMonthIcon sx={{ fontSize: 60, color: "#7C3AED", mb: 2 }} />
                     <Typography variant="h4" sx={{ fontWeight: 700, color: "#7C3AED", mb: 1 }}>
-                        Ücretsiz Ön Görüşme Randevusu
+                        Ön Görüşme Randevusu
                     </Typography>
                     <Typography variant="body1" sx={{ color: "#6D28D9" }}>
-                        Çocuğunuzun ihtiyaçlarını değerlendirmek için ücretsiz ön görüşme talebinde bulunun
+                        Çocuğunuzun ihtiyaçlarını değerlendirmek için  ön görüşme talebinde bulunun
                     </Typography>
                 </Box>
 

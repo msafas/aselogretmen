@@ -19,6 +19,12 @@ import SupportAgentIcon from "@mui/icons-material/SupportAgent";
 import AutoStoriesIcon from "@mui/icons-material/AutoStories";
 import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
 import PersonIcon from "@mui/icons-material/Person";
+import MenuBookIcon from "@mui/icons-material/MenuBook";
+import BackpackIcon from "@mui/icons-material/Backpack";
+import FamilyRestroomIcon from "@mui/icons-material/FamilyRestroom";
+import VisibilityIcon from "@mui/icons-material/Visibility";
+import LanguageIcon from "@mui/icons-material/Language";
+import LocalHospitalIcon from "@mui/icons-material/LocalHospital";
 import { Link } from "react-router-dom";
 
 
@@ -100,11 +106,6 @@ const features = [
     desc: "Disleksi ve okuma güçlüğü yaşayan öğrenciler için özel programlar.",
   },
   {
-    icon: <SchoolIcon sx={{ fontSize: 40, color: "#7C3AED" }} />,
-    title: "Öğrenme Güçlüğü",
-    desc: "Bireysel ihtiyaçlara göre özelleştirilmiş öğrenme stratejileri.",
-  },
-  {
     icon: <FavoriteIcon sx={{ fontSize: 40, color: "#EC4899" }} />,
     title: "Floortime Eğitimi",
     desc: "Çocuğunuzun gelişimini destekleyen etkileşimli oyun temelli terapi.",
@@ -119,13 +120,48 @@ const features = [
     title: "Davranış Desteği",
     desc: "Davranış bozukluklarında uzman eğitmen eşliğinde profesyonel destek.",
   },
+  {
+    icon: <MenuBookIcon sx={{ fontSize: 40, color: "#7C3AED" }} />,
+    title: "Readkid Akıcı Okuma Programı",
+    desc: "Çocuğunuzun okuma akıcılığını geliştiren özel eğitim programı.",
+  },
+  {
+    icon: <BackpackIcon sx={{ fontSize: 40, color: "#10B981" }} />,
+    title: "O-HAP Okula Hazırlık Programı",
+    desc: "Okula hazırlık sürecinde çocuğunuza profesyonel destek.",
+  },
+  {
+    icon: <FamilyRestroomIcon sx={{ fontSize: 40, color: "#EC4899" }} />,
+    title: "Eteçom Ebeveynin Etkileşim Temelli Çocuklukta Erken Müdahale Programı",
+    desc: "Ebeveyn-çocuk etkileşimini güçlendiren erken müdahale programı.",
+  },
+  {
+    icon: <VisibilityIcon sx={{ fontSize: 40, color: "#F59E0B" }} />,
+    title: "Moxo ADHL (Dikkat Testi)",
+    desc: "Dikkat eksikliği ve hiperaktivite değerlendirmesi için profesyonel test.",
+  },
+  {
+    icon: <PsychologyIcon sx={{ fontSize: 40, color: "#7C3AED" }} />,
+    title: "Cogent Erken Çocuklukta Bilişsel Müdahale Programı",
+    desc: "Erken çocukluk döneminde bilişsel gelişimi destekleyen müdahale programı.",
+  },
+  {
+    icon: <LanguageIcon sx={{ fontSize: 40, color: "#10B981" }} />,
+    title: "Türkçe Prep Programı",
+    desc: "Türkçe dil becerilerini geliştirmeye yönelik hazırlık programı.",
+  },
+  {
+    icon: <LocalHospitalIcon sx={{ fontSize: 40, color: "#EC4899" }} />,
+    title: "DEHB",
+    desc: "Dikkat Eksikliği ve Hiperaktivite Bozukluğu için özel eğitim desteği.",
+  },
 ];
 
 const steps = [
   {
     icon: <PersonIcon />,
     title: "İlk Görüşme",
-    desc: "Çocuğunuzun ihtiyaçlarını değerlendirmek için ücretsiz ön görüşme yapın.",
+    desc: "Çocuğunuzun ihtiyaçlarını değerlendirmek için ön görüşme yapın.",
   },
   {
     icon: <PsychologyIcon />,
@@ -188,10 +224,7 @@ const faqs = [
     q: "Hangi özel eğitim alanlarında hizmet veriyorsunuz?",
     a: "Otizm spektrum bozukluğu, disleksi, öğrenme güçlüğü, davranış bozuklukları, floortime eğitimi ve akıcı okuma programları sunuyoruz.",
   },
-  {
-    q: "Ön görüşme ücretsiz mi?",
-    a: "Evet, ilk ön görüşme tamamen ücretsizdir. Bu görüşmede çocuğunuzun ihtiyaçlarını değerlendirir ve size en uygun eğitim planını öneriyoruz.",
-  },
+
   {
     q: "Eğitim süresi ne kadardır?",
     a: "Bireysel eğitim planına göre değişir. Genellikle seanslar 45-60 dakika sürer ve haftada 2-3 gün önerilir.",
@@ -202,7 +235,7 @@ const faqs = [
   },
   {
     q: "Nasıl randevu alabilirim?",
-    a: "Ana sayfadaki 'Ücretsiz Ön Görüşme' butonuna tıklayarak formu doldurabilirsiniz. En kısa sürede sizinle iletişime geçeceğiz.",
+    a: "Ana sayfadaki 'Ön Görüşme Randevusu' butonuna tıklayarak formu doldurabilirsiniz. En kısa sürede sizinle iletişime geçeceğiz.",
   },
 ];
 
@@ -276,13 +309,13 @@ export default function Homepage() {
                   textShadow: "0 2px 10px rgba(0,0,0,0.1)",
                 }}
               >
-                Özel Eğitim ve Gelişim <span style={{ color: "#FDE68A" }}>Uzmanı Asel Öğretmen</span>
+                UZMAN ÖĞRETİCİ <span style={{ color: "#FDE68A" }}>ASEL ÖĞRETMEN</span>
               </Typography>
               <Typography variant="h6" sx={{ color: "#FFFFFF", mb: 4, textShadow: "0 1px 5px rgba(0,0,0,0.1)" }}>
                 Otizm, disleksi, öğrenme güçlüğü ve davranış bozuklukları için birebir özel eğitim. Floortime ve akıcı okuma programlarıyla çocuğunuzun potansiyelini ortaya çıkarın!
               </Typography>
               <Typography variant="body1" sx={{ color: "#FDE68A", fontWeight: 700, mb: 2, fontSize: "1.1rem" }}>
-                Ücretsiz ön görüşme için hemen randevu alın.
+                Ön görüşme için hemen randevu alın.
               </Typography>
               <Stack direction={{ xs: "column", sm: "row" }} spacing={2}>
                 <Button
@@ -307,7 +340,7 @@ export default function Homepage() {
                     transition: "all 0.3s ease",
                   }}
                 >
-                  Ücretsiz Ön Görüşme
+                  Ön Görüşme Randevusu
                 </Button>
 
               </Stack>
@@ -555,7 +588,7 @@ export default function Homepage() {
             🎓 Çocuğunuzun gelişimi için ilk adımı atın!
           </Typography>
           <Typography variant="h6" sx={{ color: "#FFFFFF", mb: 4, textShadow: "0 1px 5px rgba(0,0,0,0.1)" }}>
-            Ücretsiz ön görüşme için hemen başvurun, uzman özel eğitim öğretmeniyle çocuğunuzun potansiyelini keşfedin!
+            Ön görüşme için hemen başvurun, uzman özel eğitim öğretmeniyle çocuğunuzun potansiyelini keşfedin!
           </Typography>
           <Button
             component={Link}
@@ -579,7 +612,7 @@ export default function Homepage() {
               transition: "all 0.3s ease",
             }}
           >
-            Ücretsiz Randevu Al
+            Randevu Al
           </Button>
         </Container>
       </Box>
@@ -610,16 +643,16 @@ export default function Homepage() {
                   <svg width="20" height="20" fill="#7C3AED" viewBox="0 0 24 24">
                     <path d="M20 4H4C2.897 4 2 4.897 2 6v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm0 2v.511l-8 5.333-8-5.333V6h16zM4 20v-9.489l7.445 4.963a1 1 0 0 0 1.11 0L20 10.511V20H4z" />
                   </svg>
-                  <a href="mailto:info@aselogretmen.com" style={{ color: "#7C3AED", fontWeight: 600, textDecoration: "none" }}>
-                    info@aselogretmen.com
+                  <a href="mailto:elif-sunbul@hotmail.com" style={{ color: "#7C3AED", fontWeight: 600, textDecoration: "none" }}>
+                    elif-sunbul@hotmail.com
                   </a>
                 </Box>
                 <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
                   <svg width="20" height="20" fill="#7C3AED" viewBox="0 0 24 24">
                     <path d="M17.707 12.293l-3-3A.997.997 0 0 0 14 9h-4a.997.997 0 0 0-.707.293l-3 3A.999.999 0 0 0 6 13v5c0 1.103.897 2 2 2h8c1.103 0 2-.897 2-2v-5a.999.999 0 0 0-.293-.707zM12 4c1.654 0 3 1.346 3 3s-1.346 3-3 3-3-1.346-3-3 1.346-3 3-3zm0 2c-.551 0-1 .449-1 1s.449 1 1 1 1-.449 1-1-.449-1-1-1z" />
                   </svg>
-                  <a href="tel:+905331407746" style={{ color: "#7C3AED", fontWeight: 600, textDecoration: "none" }}>
-                    +90 533 140 77 46
+                  <a href="tel:+905419204689" style={{ color: "#7C3AED", fontWeight: 600, textDecoration: "none" }}>
+                    0541 920 4689
                   </a>
                 </Box>
               </Box>
@@ -630,7 +663,7 @@ export default function Homepage() {
               </Typography>
               <Box sx={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 2 }}>
                 <a
-                  href="#"
+                  href="https://www.instagram.com/asel.ogretmen/"
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{ color: "#7C3AED", display: "inline-flex", alignItems: "center", textDecoration: "none", fontWeight: 600 }}

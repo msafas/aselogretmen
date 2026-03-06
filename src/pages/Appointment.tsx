@@ -240,7 +240,7 @@ export default function Appointment() {
                             color: "#6D28D9",
                         }}
                     >
-                        ℹ️ Her saat diliminde maksimum 2 randevu alınabilir. Lütfen uygun saati seçin.
+                        ℹ️ Her saat diliminde maksimum 1 randevu alınabilir. Lütfen uygun saati seçin. Randevu onayı için sizinle iletişime geçilecektir.
                     </Alert>
                 </Box>
 

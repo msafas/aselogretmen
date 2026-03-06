@@ -129,7 +129,7 @@ export default function SignUp() {
     <BackgroundContainer>
       <Card variant="outlined">
         <Typography variant="h5" sx={{ fontWeight: 700, color: "#7C3AED", mb: 2, textAlign: "center" }}>
-          Asel Öğretmen Kayıt
+          Kayıt
         </Typography>
         <Grid container spacing={2}>
           <Grid item xs={12} sm={6}>
@@ -340,7 +340,7 @@ export default function SignUp() {
             </li>
           </ul>
           <Typography variant="body2" sx={{ mt: 2 }}>
-            Detaylı bilgi ve sorularınız için <b>info@aselogretmen.com</b> adresine ulaşabilirsiniz.
+            Detaylı bilgi ve sorularınız için <b>elif-sunbul@hotmail.com</b> adresine ulaşabilirsiniz.
           </Typography>
         </DialogContent>
         <DialogActions>

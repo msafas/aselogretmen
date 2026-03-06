@@ -127,7 +127,7 @@ export default function LogIn() {
             variant="h5"
             sx={{ fontWeight: 700, color: "#7C3AED", letterSpacing: 1, mt: 2 }}
           >
-            Asel Öğretmen Giriş
+            Giriş
           </Typography>
           <Typography variant="body2" sx={{ color: "#6D28D9", mb: 1 }}>
             Lütfen hesabınıza giriş yapın
